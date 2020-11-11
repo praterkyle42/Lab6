@@ -59,8 +59,7 @@ public class Month {
     }
     
     //Get the name of the month if the object is initialized with an int
-    public String getMonthName() { 
-        MonthsOfTheYear Months;   
+    public String getMonthName() {   
         for (MonthsOfTheYear m : MonthsOfTheYear.values()) {
             if (m.ordinal() + 1 == this.monthNumber) {
                 this.monthName = m.name();
